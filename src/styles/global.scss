@@ -1,0 +1,82 @@
+// Styles reset
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Font
+body {
+  font-family: Arial, sans-serif;
+}
+
+// Links
+a {
+  text-decoration: none;
+  color: #333; // Kolor linków
+
+  &:hover {
+    text-decoration: underline; // Podkreślenie po najechaniu myszką
+  }
+}
+
+// Header
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+}
+
+// Navigation
+nav {
+  ul {
+    list-style-type: none;
+
+    li {
+      display: inline;
+      margin-right: 10px;
+
+      a {
+        color: #333;
+      }
+    }
+  }
+}
+
+// Footer
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+// Main
+
+.main-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-card {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
