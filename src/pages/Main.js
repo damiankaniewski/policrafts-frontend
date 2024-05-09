@@ -12,10 +12,6 @@ function Main() {
         <p>Tekst pod obrazkiem</p>
       </div>
       <div class="image-card">
-        <img src="https://picsum.photos/202" alt="obrazek"></img>
-        <p>Tekst pod obrazkiem</p>
-      </div>
-      <div class="image-card">
         <img src="https://picsum.photos/203" alt="obrazek"></img>
         <p>Tekst pod obrazkiem</p>
       </div>
